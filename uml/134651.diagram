@@ -1,0 +1,54 @@
+format 74
+
+classcanvas 128123 class_ref 134651 // UserProfile
+  class_drawing_mode default show_context_mode default show_stereotype_properties default
+  xyz 88.6477 96.5189 2000
+end
+classcanvas 128251 class_ref 134779 // Merchant
+  class_drawing_mode default show_context_mode default show_stereotype_properties default
+  xyz 612.535 109.431 2000
+end
+usecasecanvas 128379 usecase_ref 134651 // get deal
+  xyzwh 177.85 41.5004 3005 69 31 label_xy 168 68
+end
+subject 128507 ""
+  xyzwh 144.251 32.9319 3010 257 430
+usecasecanvas 128635 usecase_ref 134779 // cancel get deal
+  xyzwh 204.252 92.4741 3015 97 43 label_xy 200 97
+end
+usecasecanvas 128763 usecase_ref 134907 // add friends
+  xyzwh 206.154 140.349 3015 64 32 label_xy 203 147
+end
+usecasecanvas 128891 usecase_ref 135035 // follow merchant
+  xyzwh 211.139 296.203 3015 64 32 label_xy 197 304
+end
+usecasecanvas 129019 usecase_ref 135163 // invite friends
+  xyzwh 210.52 256.243 3015 64 32 label_xy 216 262
+end
+usecasecanvas 129147 usecase_ref 135291 // login
+  xyzwh 212.138 347.26 3015 64 32 label_xy 230 358
+end
+usecasecanvas 129275 usecase_ref 135419 // logout
+  xyzwh 213.939 387.235 3015 64 32 label_xy 220 395
+end
+usecasecanvas 129531 usecase_ref 135675 // get friends' information
+  xyzwh 219.306 199.743 3020 64 32 label_xy 203 206
+end
+subject 131835 ""
+  xyzwh 421.681 34.715 2000 187 430
+usecasecanvas 131963 usecase_ref 135803 // publish deal
+  xyzwh 489.978 72.8792 3005 64 32 label_xy 488 105
+end
+usecasecanvas 132091 usecase_ref 135931 // edit deal
+  xyzwh 485.665 136.882 3005 64 32 label_xy 494 170
+end
+usecasecanvas 132219 usecase_ref 136059 // information
+  xyzwh 486.993 209.839 3005 64 32 label_xy 489 243
+end
+usecasecanvas 132347 usecase_ref 136187 // loginorout
+  xyzwh 479.696 282.795 3005 64 32 label_xy 484 315
+end
+line 131323 --->
+  from ref 128123 z 2006 to point 114.894 110.001
+  line 131451 z 2006 to ref 128635
+end

@@ -1,0 +1,21 @@
+window_sizes 1280 776 300 974 604 120
+diagrams
+  usecasediagram_ref 134651 // User Merchant 
+    779 465 115 4 28 0
+  active  classdiagram_ref 134779 // Class diagram
+    974 604 139 4 0 0
+end
+show_stereotypes
+selected attribute_ref 137723 // is_agree
+open
+  class_ref 134651 // UserProfile
+  class_ref 134779 // Merchant
+  class_ref 135035 // Phone
+  class_ref 135163 // Deal
+  class_ref 135291 // Invitation
+  class_ref 135675 // UserDeal
+  class_ref 135803 // MerchantDeal
+  class_ref 135931 // UserPhone
+  class_ref 136187 // UserDealInvitation
+end
+end

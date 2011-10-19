@@ -1,0 +1,11 @@
+from django.shortcuts import get_object_or_404
+from pengpengtao.models.models import UserDeal, Deal, Merchant , MerchantDeal, User 
+
+def get_deal_by_id(id):
+    deal = get_object_or_404(Deal, pk=id)
+
+def get_user_by_id(id):
+    user = get_object_or_404(Deal, pk=id)
+
+def get_deal_list_of_user(user):
+    #bad
